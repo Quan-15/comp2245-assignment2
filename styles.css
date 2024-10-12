@@ -1,0 +1,32 @@
+/* Basic styling for your page */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    color: #2D3748;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+header {
+    grid-column: 1 / span 2;
+    background-color: #63B3ED;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    grid-column: 1 / span 2;
+    background-color: #2C5282;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
